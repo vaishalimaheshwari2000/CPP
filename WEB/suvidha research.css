@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     background: url('image/user.jpg'); 
+}
+.suv-title{
+    font-family:'Oswald', sans-serif,'Roboto Serif', sans-serif;
+    font-weight: 400;
+    font-variant-ligatures: historical-ligatures ;
+    font-style: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    gap: 1rem;
+}
+
+#hr{
+    float: center;
+}
+
+
+#anal{
+    font-family:'Oswald', sans-serif,'Roboto Serif', sans-serif;
+    font-weight: 400;
+    font-variant-ligatures: historical-ligatures ;
+    font-style: inherit;
+    text-align: center;
+    margin-top: 150px; 
+}
+
+.navbar ul{
+
+    list-style: none;
+    margin: 0px 0px;
+    display: inline;
+    display: flex;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    
+}
+.navbar li{
+    float:left; 
+    margin: -3px  30px;
+    
+}
+header{
+    width:100%;
+    background-color:black;
+    /* padding: 1rem; */
+}
+.logo{
+    display:flex;
+    flex-direction: row-wrap;
+    width: 0px;
+    padding:0.5px; 
+    height:0rem;
+}
+
+
+
+.navbar li a:hover{
+    color:rgb(17, 184, 142);
+}
+
+
+#logo img{
+    border-radius:3px;
+}
+.navbar{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    justify-content: space-between;
+}
+.navbar li a{
+    font-weight: 10;
+    font-variant-ligatures: historical-ligatures ;
+    font-style: inherit;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 100%;
+    list-style: none;
+    float: left;
+    text-decoration: none;
+    padding:3px 3px;
+  
+}

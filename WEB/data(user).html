@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <html langs="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name = "viewport" content = "width=1700  maximum-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Sarala&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Sarala&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="data.css">
+    </head>
+    <header ><img src=".\bro.png">
+        <h1 class="data"><strong><marquee >Welcome to Data Entry Page of Analytica</marquee></strong></h1><br>  
+    </header>
+    <body>
+        
+        <!-- <div class="data"><strong><marquee>Welcome to Data Entry Page of Analytica</marquee></strong></div><br>   -->
+        <form class="form-horizontal" action="functions.php" method="post" name="upload_excel" enctype="multipart/form-data">
+        <fieldset style="border:0.5px solid" class="field">
+                
+                                <!--Form Name-->
+                                <legend>Data Entry Page</legend><br>                     
+                                <!-- File Button -->
+                                <div class="n">
+                                <label class="col-md-4 control-label" for="filebutton">Select File</label>
+                                <input type="file" name="file" id="file" class="input-large" required> <br><br>
+                                </div>
+                                <!-- Button -->
+                                <div class="n">
+                                <label class="col-md-4 control-label" for="singlebutton">Import data</label>
+                                <button style='margin-right: 2rem' type="submit" id="submit" name="Import" class="btn btn-primary button-loading" data-loading-text="Loading...">Upload</button></br>                                  
+                                 <!-- <input type="submit" name="Export" class="btn btn-success" value="export to excel"> -->
+                                </div> 
+                                
+                                
+               </fieldset> 
+           </form> 
+    
+    </body>
+    </html>
