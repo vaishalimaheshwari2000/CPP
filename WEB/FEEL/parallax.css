@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+
+.moon{
+    background-image: url("./image/london.jpg");
+    min-height:44.5rem; 
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    opacity: 0.6;
+}
+.moon1 span{
+    display: inline-block;
+    font-size:3rem;
+    color:white;
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top:18rem;
+}
+#moonmeta, #londonmeta, #london3meta{
+   text-align:center;
+}
+.london{
+    background-image: url("./image/moun.jpg");
+    min-height: 44.5rem; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    
+}
+.blur{
+    background-image: url("./image/blu.jpg");
+    min-height: 44.5rem; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.blur span{
+    display: inline-block;
+    font-size:5rem;
+    color:white;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top:18rem;
+    text-align:center;
+    opacity:0.7;
+}
+.london span{
+    display: inline-block;
+    font-size:3rem;
+    color:white;
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top:18rem;
+    text-align:center;
+}
+.london3 span{
+  display: inline-block;
+    font-size:4rem;
+    color:white;
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top:18rem;
+    text-align:center;
+    width:100%;
+}
+.x{
+    background-image: url("./image/food.jpg");
+    min-height:44.5rem; 
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    opacity: 0.6;
+}
+
+.london2{
+    display: inline-block;
+    font-size:1rem;
+    color:white;
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+
+
+
+
